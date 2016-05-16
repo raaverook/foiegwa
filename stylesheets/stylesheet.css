@@ -7,8 +7,8 @@
 }
 
  @font-face {
-    font-family: BlairITCLig;
-    src: url(fonts/BlairITCLig.ttf);
+    font-family: FuturaStd-Light;
+    src: url(fonts/FuturaStd-Light.otf);
 }
 
 
@@ -180,7 +180,7 @@ a {
 .project-tagline {
   margin:0 0 0 0;
   color: #000000;
-  font-family: BlairITCLig; 
+  font-family: FuturaStd-Light; 
   font-weight: normal; }
 
 @media screen and (min-width: 64em) {
@@ -197,23 +197,23 @@ a {
 
 .middot { 
   color: #000000;
-  font-family: font-family:;
+  font-family: FuturaStd-Light;
   font-weight: normal; }
 
 @media screen and (min-width: 64em) {
   .middot {
-    margin: -1.5rem 0 -1.5rem 0;
+    margin: -1rem 0 -1rem 0;
 	font-size: 2rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .middot {
-    font-size: 1.5rem; 
-    margin: -1.1rem 0 -1.1rem 0;} }
+    font-size: 1.8rem; 
+    margin: -0.9rem 0 -0.9rem 0;} }
 
 @media screen and (max-width: 42em) {
   .middot {
-  margin: -0.7rem 0 -0.7rem 0;
-  font-size: 1rem; } }
+  margin: -0.9rem 0 -0.8rem 0;
+  font-size: 1.5rem; } }
 	
 .main-content :first-child {
   margin-top: 0; }
