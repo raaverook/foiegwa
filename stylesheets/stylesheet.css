@@ -2,14 +2,10 @@
   box-sizing: border-box; }
 
  @font-face {
-    font-family: Neutra2Display-Light;
-    src: url(fonts/Neutra2Display-Light.otf);
+    font-family: FuturaStd-Bold;
+    src: url(fonts/FuturaStd-Bold.otf);
 }
 
- @font-face {
-    font-family: Neutra2Display-Bold;
-    src: url(fonts/Neutra2Display-Bold.otf);
-}
   
   
 body {
@@ -71,11 +67,11 @@ a {
       margin-left: 0; } }
 	 
 .btn2 {
-  font-family: Neutra2Display-Bold;
+  font-family: FuturaStd-Bold;
   display: inline-block;
   margin-bottom: 0rem;
   border-radius: 0.3rem;
-  color: #f26d7d;
+  color: #000000;
   font-size: 1.1rem;
   transition: background-color 0.2s ; }
   .btn2 + .btn2 {
@@ -168,8 +164,7 @@ a {
 
 .project-tagline {
   margin:0 0 0 0;
-  color: #fdecc1;
-  font-family: Neutra2Display-Light;
+  color: #000000;
   font-weight: normal; }
 
 @media screen and (min-width: 64em) {
