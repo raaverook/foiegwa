@@ -75,10 +75,8 @@ a {
   font-family: FuturaStd-Bold;
   display: inline-block;
   margin-bottom: 0rem;
-  border-radius: 0.3rem;
   color: #000000;
-  font-size: 1.1rem;
-  transition: background-color 0.2s ; }
+  font-size: 1.1rem;}
   .btn2 + .btn2 {
     margin-left: 1rem; }
 
@@ -101,7 +99,6 @@ a {
     padding: 0.25rem;
     font-size: 0.8rem; }
     .btn2 + .btn2 {
-      margin-top: 0.2rem;
       margin-left: 0; } }
 
 .page-header {
