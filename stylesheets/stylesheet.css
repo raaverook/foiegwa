@@ -1,14 +1,35 @@
 * {
   box-sizing: border-box; }
 
+ @font-face {
+    font-family: Neutra2Display-Light;
+    src: url(fonts/Neutra2Display-Light.otf);
+}
+
+ @font-face {
+    font-family: Neutra2Display-Bold;
+    src: url(fonts/Neutra2Display-Bold.otf);
+}
+  
+  
 body {
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71;
+  }
 
+  
+ html {
+  background: url(../img/marbre_full.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+ }
+  
 a {
   color: #1e6bb8;
   text-decoration: none; }
@@ -52,12 +73,44 @@ a {
     .btn + .btn {
       margin-top: 1rem;
       margin-left: 0; } }
+	 
+.btn2 {
+  font-family: Neutra2Display-Bold;
+  display: inline-block;
+  margin-bottom: 0rem;
+  border-radius: 0.3rem;
+  color: #f26d7d;
+  font-size: 1.1rem;
+  transition: background-color 0.2s ; }
+  .btn2 + .btn2 {
+    margin-left: 1rem; }
+
+.btn2:hover {
+  text-decoration: none;
+ }
+
+@media screen and (min-width: 64em) {
+  .btn2 {
+    padding: 0.4rem 0.5rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .btn2 {
+    padding: 0.3rem 0.45rem;
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 42em) {
+  .btn2 {
+    margin: 0 ;
+	width: 100%;
+    padding: 0.25rem;
+    font-size: 0.6rem; }
+    .btn2 + .btn2 {
+      margin-top: 0.2rem;
+      margin-left: 0; } }
 
 .page-header {
   color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  text-align: center; }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -71,7 +124,37 @@ a {
   .page-header {
     padding: 2rem 1rem; } }
 
+.acc_logo {
+  max-width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 64em) {
+  .acc_logo {
+  max-width: 100%;
+  height: auto;
+  margin-top: 5rem;
+  margin-bottom: 3rem;} }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .acc_logo {
+  max-width: 75%;
+  height: auto;
+  margin-top: 4rem ;
+  margin-bottom: 2.5rem;} }
+
+@media screen and (max-width: 42em) {
+  .acc_logo {
+  max-width: 50%;
+  height: auto;
+  margin-top: 2rem ;
+  margin-bottom: 1.4rem;} }
+
+
 .project-name {
+  color: #fdecc1;
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
@@ -88,24 +171,47 @@ a {
     font-size: 1.75rem; } }
 
 .project-tagline {
-  margin-bottom: 2rem;
-  font-weight: normal;
-  opacity: 0.7; }
+  margin:0 0 0 0;
+  color: #fdecc1;
+  font-family: Neutra2Display-Light;
+  font-weight: normal; }
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.25rem; } }
+    font-size: 2rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
-    font-size: 1.15rem; } }
+    font-size: 1.8rem; } }
 
 @media screen and (max-width: 42em) {
   .project-tagline {
-    font-size: 1rem; } }
+    font-size: 1.5rem; } }
 
+.middot { 
+  color: #fdecc1;
+  font-family: Neutra2Display-Light;
+  font-weight: normal; }
+
+@media screen and (min-width: 64em) {
+  .middot {
+    margin: -2rem 0 -1.5rem 0;
+	font-size: 2rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .middot {
+    font-size: 1.5rem; 
+    margin: -1.5rem 0 -1.1rem 0;} }
+
+@media screen and (max-width: 42em) {
+  .middot {
+  margin: -1rem 0 -0.7rem 0;
+  font-size: 1rem; } }
+	
 .main-content :first-child {
   margin-top: 0; }
+  
+   
 .main-content img {
   max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
