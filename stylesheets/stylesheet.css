@@ -120,7 +120,7 @@ a {
   .page-header {
     padding: 2rem 1rem; } }
 
-.acc_logo {
+.foiegwa_logo {
   max-width: 100%;
   height: auto;
   margin-top: 5rem;
@@ -128,21 +128,21 @@ a {
 }
 
 @media screen and (min-width: 64em) {
-  .acc_logo {
+  .foiegwa_logo {
   max-width: 100%;
   height: auto;
   margin-top: 5rem;
   margin-bottom: 3rem;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .acc_logo {
+  .foiegwa_logo {
   max-width: 75%;
   height: auto;
   margin-top: 4rem ;
   margin-bottom: 2.5rem;} }
 
 @media screen and (max-width: 42em) {
-  .acc_logo {
+  .foiegwa_logo {
   max-width: 50%;
   height: auto;
   margin-top: 2rem ;
