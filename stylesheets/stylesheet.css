@@ -128,21 +128,21 @@ a {
   .foiegwa_logo {
   max-width: 100%;
   height: auto;
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-bottom: 2rem;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .foiegwa_logo {
   max-width: 75%;
   height: auto;
-  margin-top: 40% ;
+  margin-top: 25% ;
   margin-bottom: 10%;} }
 
 @media screen and (max-width: 42em) {
   .foiegwa_logo {
   max-width: 60%;
   height: auto;
-  margin-top: 40% ;
+  margin-top: 25% ;
   margin-bottom: 10%;} }
 
    .liens {
@@ -181,19 +181,60 @@ a {
   margin:0 0 0 0;
   color: #000000;
   font-family: FuturaStd-Light; 
-  font-weight: normal; }
+  font-weight: light; }
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 2rem; } }
+    font-size: 1.2rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
-    font-size: 1.8rem; } }
+    font-size: 1.1rem; } }
 
 @media screen and (max-width: 42em) {
   .project-tagline {
-    font-size: 1.5rem; } }
+    font-size: 1.0rem; } }
+	
+
+
+.horaire_titre {
+  margin:2rem 0 0 0;
+  color: #000000;
+  font-family: FuturaStd-Bold; 
+  font-weight: bold;
+} 
+
+.horaire_texte {
+  margin:0 0 0 0;
+  color: #000000;
+  font-family: FuturaStd-Light; 
+  font-weight: lighter; }
+}
+
+@media screen and (min-width: 64em) {
+  .horaire_titre {
+    font-size: 1rem; } }
+	
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .horaire_titre {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 42em) {
+  .horaire_titre {
+    font-size: 0.9rem; } }	
+
+@media screen and (min-width: 64em) {
+  .horaire_texte {
+    font-size: 1rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .horaire_texte {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 42em) {
+  .horaire_texte {
+    font-size: 0.9rem; } }
+
 
 .middot { 
   color: #000000;
