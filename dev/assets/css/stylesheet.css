@@ -237,6 +237,10 @@
 	z-index: -1;   
 }
 
+#one.wrapper {
+	padding: 2em 0 4em 0;
+}
+
 #two.wrapper {
 	padding: 2em 0 4em 0;
 }
