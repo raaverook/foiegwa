@@ -225,7 +225,7 @@
 
 #two::after {
 	content: "";
-	background-image:  url(../../images/pates_au_beurre.jpg) ;
+	background-image:  url(../../images/banner_2.jpg) ;
 	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.8;
