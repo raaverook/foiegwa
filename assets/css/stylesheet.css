@@ -195,7 +195,8 @@
     padding: 0.25rem;
     font-size: 0.8rem; }
     .btn2 + .btn2 {
-      margin-left: 0; } }
+      margin-left: 0; } 
+}
 	  
 /* MENU */
 
@@ -219,7 +220,14 @@
 
 /* MENU */
 
+
+.book_wrapper {
+	width:95%; 
+}
+
+
 .book {
+	width:95%; 
 	margin: auto;
 	padding-bottom: 5rem;
 }
