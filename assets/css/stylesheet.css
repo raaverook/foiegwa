@@ -120,6 +120,9 @@
   .horaire_texte {
     font-size: 0.9rem; } }
 
+.more_wrapper {
+	width: 100%;
+}
 	
  .liens {
  }
@@ -229,15 +232,27 @@
 
 
 .book_wrapper {
-	width:95%; 
+	width:100%; 
 }
 
 
 .book {
-	width:95%; 
+	width:35%; 
 	margin: auto;
 	padding-bottom: 5rem;
 }
+
+@media screen and (min-width: 64em) {
+  .book {
+    width:35%; } }
+	
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .book {
+    width:50%;} }
+
+@media screen and (max-width: 42em) {
+  .book {
+    width:65%; } }	
 
 /* PRESSE */
 #three{
@@ -275,6 +290,18 @@
   font-weight: bold;
   font-size: 2em;
 } 
+
+@media screen and (min-width: 64em) {
+  .presse_titre {
+    font-size: 1.5rem; } }
+	
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .presse_titre {
+    font-size: 1rem; } }
+
+@media screen and (max-width: 42em) {
+  .presse_titre {
+    font-size: 1rem; } }	
 
 .image.fit img:hover {
         -webkit-animation: swing 1s ease;
