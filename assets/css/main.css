@@ -3475,16 +3475,15 @@
 			color: inherit;
 			font-size: 0.8em;
 			height: 6em;
-			left: 50%;
+			left: 0%;
 			letter-spacing: 0.225em;
-			margin-left: -8.5em;
 			opacity: 1;
 			outline: 0;
 			padding-left: 0.225em;
 			position: absolute;
 			text-align: center;
 			text-transform: uppercase;
-			width: 16em;
+			width: 100%;
 			z-index: 1;
 		}
 
