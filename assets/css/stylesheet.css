@@ -35,11 +35,13 @@
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main_logo {
   max-width: 75%;
+  padding: 0 0 2em 0 ;
 } }
 
 @media screen and (max-width: 42em) {
   .main_logo {
   max-width: 50%;
+  padding: 0 0 2em 0 ;
 } }
 
 
@@ -56,6 +58,10 @@
   font-family: FuturaStd-Light; 
   font-weight: light; 
   }
+  
+.fn{
+	display:block;
+}
 
 @media screen and (min-width: 64em) {
   .adresse {
