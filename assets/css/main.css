@@ -3485,6 +3485,7 @@
 			text-transform: uppercase;
 			width: 100%;
 			z-index: 1;
+			display:none;
 		}
 
 			#banner .more:after {
@@ -3496,6 +3497,7 @@
 				margin: 0 0 0 -0.75em;
 				position: absolute;
 				width: 1.5em;
+				display:none;
 			}
 
 		#banner:after {
